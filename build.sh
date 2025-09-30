@@ -317,7 +317,7 @@ SET_CONFIG(){
             -e KSU_SUSFS_AUTO_ADD_SUS_BIND_MOUNT \
             -e KSU_SUSFS_SUS_KSTAT \
             -e KSU_SUSFS_SPOOF_UNAME \
-            -e KSU_SUSFS_SPOOF_CMDLINE_OR_BOOTCONFIG \
+            -e KSU_SUSFS_SPOOF_CMDLINE_OR_BOOTCONFIG
      else
         scripts/config --file out/.config \
             -d KSU_SUSFS \
