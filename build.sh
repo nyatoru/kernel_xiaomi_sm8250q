@@ -313,6 +313,7 @@ SET_CONFIG(){
             -e KSU_SUSFS \
             -e KSU_SUSFS_HAS_MAGIC_MOUNT \
             -e KSU_SUSFS_SUS_MOUNT \
+            -e KSU_SUSFS_TRY_UMOUNT \
             -e KSU_SUSFS_AUTO_ADD_SUS_KSU_DEFAULT_MOUNT \
             -e KSU_SUSFS_AUTO_ADD_SUS_BIND_MOUNT \
             -e KSU_SUSFS_SUS_KSTAT \
